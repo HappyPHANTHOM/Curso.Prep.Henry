@@ -1,0 +1,54 @@
+||Variables:||
+Las variables son como cajas en las que metes cosas, las cajas deben llevar nombre y el metodo para meter informacion dentro de la caja es 
+var caja = 'gatos'; <-----ESTA ACCION HIZO QUE EL STRING 'GATOS' SE METIERA DENTRO DE LA VARIABLE NOMBRADA CAJA
+Dentro dentro de una variable puedes ingresar, numeros, texto, etc. Al momento de tu meter algo dentro de una variable, se le 
+llama "declarar", estas declarando una varible, es importante que cada que declares una varible terminas la declaracion con ";"
+si no lo haces asi js no registrara que esa accion en una declaracion.
+Algo que es importante mencionar es que a lasvariables le puedes cambiar lo que tienen dentro, por ejemplo:
+varible1 = dato1;
+    En este momento las variable1 tiene dentro dato1, pero si hacemos esto:
+variable1 = dato2;
+    En este momento automaticamente la variable1 cambio su informacion interior, esto porque siempre va tomar como referencia de accion
+    la ultima delcaracion, en este caso es esta-----> variable1 = dato2;
+A las variables en js le puedes cambiar los datos internos las veces que quieras.
+
+
+||Strings:||
+Los strigns son cualquier dato que inicie y termine en comillas, doblles "string" o simples 'string', ambas funcionan.
+Puedes meter strings en variables---------------> caja_strings = 'soyUnaString';
+Las strings no son solo textos, son caracteres, esto quiere decir que pueden ser tambien numeros(siempre y cuando vayan dentro de
+comillas '543').
+Cuando unes una string con otra strig, se le llama concadenar, y se hace asi:
+ variableConcadenar = 'hola' + ' pancho';
+ return variableConcadenar;
+ 'hola pancho'
+
+ ||Funciones:||
+ Las funciones se podria decir que son personajes que cada vez que los llamas, tienen una funcion que hacer en especifico y los puedes llamar
+ las veces que quieras. 
+ En el lenguaje js, las funciones son codigo que va hacer una accion las veces que tu lo llames, para hacer una funcion tienes que seguir esta sintaxis:
+    funcion nombreFuncion(dato) {codigo que se va ejecutar;}
+
+Dentro de la funcion puedes anidar otras funciones y tambien crear variables dentro de las mismas, un dato muy importante es que las variables
+creadas dentro de la funcion solo pueden ser ejecutadas y usadas dentro de la funcion, ya que esta en el SCOPE de la funcion creada, se podria decir
+que es un 'SCOPE LOCAL', por lo tanto son VARIABLES LOCALES, No pueden ser llamadas fuera de ahi ni modificadas fuera de la funcion.
+Pasa algo distinto con las VARIABLES GLOBALES en el SCOPE GLOBAL, esta si pueden ser llamadas desde dentro de cualquier funcion, pero solo modificadas en el SCOPE GLOBAL.
+
+||IF||
+El if es utilizado para evaluar una expresion, de si es VERDADERA O FALSA, si es verdadera ejecuta una accion, si es falsa, ejecutara otra
+la sintaxis es asi: 
+    if(condicion) instruccion;
+
+    La Condicion es una expresion boleana, esto quiere decir que lo que resulte de esa operacion dara como resultado FALSO o VERDADERO.
+
+    La Instruccion es lo que se ejecutara si el resultado es TRUE, si el resultado el FALSE se omitira la Instruccion y no se ejecutara.
+
+Las sentencias de codigo van agrupadas con {} <----------llaves
+
+ELSE:
+El else es lo que se ejecutaria si la condicion del if diera FALSE, el else se encarga de ejecutar otra instruccion ya que el if no pudo ejecutar
+la suya por resultar FALSE y no TRUE en su condicion.
+
+||VALORES BOLEANOS TRUE, FALSE||
+Estos valores se encargan de evaluar una situacion y dependiendo lo que resulte ejecutan una accion, algo importante de mencionar es que cualquier
+valor que no sea NULL o UNDEFINED, da TRUE.

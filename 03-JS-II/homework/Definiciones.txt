@@ -1,0 +1,22 @@
+-OPERADORES LOGICOS-
+
+!<------Para negar algo utilizas esto, esto significa que si pones algo que es positivo y le agregas '!', 
+se convertira el negativo y de igual forma si es negativo y lo niegas, se convertira en positivo
+EJEMPLO:    !1 = FALSE
+            !0 = FALSE
+
+El 'y' en js es '&&'  y puede tener multiples usos, 
+EJEMPLO:
+     if(numero % 3 === 0 && numero % 5 === 0){
+        return 'fizzbuzz';
+
+En este caso se usa en la condicon if para condiconar que si el sobrante de la divicion de 3 y 5 
+es igual a cero, retorna 'fizzbuzz'.
+
+El 'o' en js es '||', tambien se puede usar en multiples situaciones,
+EJEMPLO: 
+    if(numero===10 || numero===5){
+    return true;
+
+En este caso se usa en la condicion if para condicionar que si numero es igual a 10 o numero es igual a 5
+retorna true.

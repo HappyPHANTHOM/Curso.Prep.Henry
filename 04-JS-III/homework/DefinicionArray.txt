@@ -1,0 +1,37 @@
+-ARRAYS-
+Los arrays son elementos ordenados a los que yo puedo acceder gracias a quee stan ordenados,
+son listas de elementos.
+
+Los Arrays pueden contener todo tipo de elementos, incluso otros arrays o funciones, para crear
+un array tienes que llamarlo
+SINTAXIS:     var array = [];
+Este es un array vacio, una manera de agregarle cosas al array es concadenarle cosas.
+
+Los Strigns tambien son arrays, ya que dentro de los Strigns tambien hay cierto numero de caracteres.
+
+Para saber el largo de un array, usas la propiedad .length, al ahcer esto te arroja el numero de caracteres 
+que hay dentro del array. Algo que es importante destacar es que el conteo de los arrays inicia desde 0, esto significa
+que si quieres saber que hay en la posicion 1 del array, tienes que llamarlo asi: array[0];
+
+1 | 0 <-----Asi inicia en el array
+2 | 1
+3 | 2
+4 | 3
+
+-PROPIEDADES DE LOS ARRAYS-
+
+Hay varias propiedades, pero solo mencionare las mas relevantes para los arrays.
+.PUSH es una funcion nativa del array que nos permite  ingresar arreglos al final 
+SINTAXIS:   array.push 
+
+.POP saca el ultimo caracter del array
+SINTAXIS: array.pop 
+Es importante mencionar que si no asignas el caracter que sacaras del array, este se pierde para siempre
+ 
+.UNSHIFT añade un caracter al principio del array
+
+.SHIFT elimina el primer elemento del array
+
+.JOIN de esta forma se unen todos los elementos  del array. Ahora, si lo que quieres es que entre cada elemento alla 
+un espacio o suma o guion haces esto
+SINTAXIS: array.join(+);
