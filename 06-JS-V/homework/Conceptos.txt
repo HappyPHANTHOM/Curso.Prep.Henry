@@ -1,0 +1,9 @@
+--PROTOTYPE--
+El protype es una propiedad de objeto, dentro de el se albergan funciones a las cuales
+dentro del prototype se les llama metodos.
+Esto no quiere decir que solo se encarga de albergar metodos(funciones) ya preescritas de jv, si no que
+tambien mediante el prototype se pueden crear funciones nuevas.
+--CONSTRUCTORS--
+El constructor se podria decir que es la forma de crear una clase, de esta forma creas la funcion que se guardara
+en el prototype y asi cada vez que la necesites la llamas, dentro del constrcutor tu estableces los datos que quieras
+quevayan dentro de la misma.

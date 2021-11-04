@@ -1,0 +1,6 @@
+--FUNCIONES CALLBACK--
+El el momento el que pasamos una funcion como argumento a otra funcion, recibe el nombre
+de callback.
+
+Esto facilita ya agiliza el codigo, ya que con menos se puede hacer mas, esto es gracias a los metodos
+trabajando en conjunto con CB(callback).

@@ -1,0 +1,49 @@
+--OBJETOS--
+Los objetos son muy parecidos alos arrays, solo que sus datos no estan ubicadas por un indice
+numerico. Para invocar un objeto se crea como si fuera una variable y se le asignan llaves'{}', asi:
+    SINTAXIS: 
+        const nuevoObjeto = {};
+    
+    Dentro del objeto se usa un concepto llamado clave:valor, los objetos pueden tener muchos clave:valor
+    pero deben ir separados por una coma ','.
+    El concepto clave valor funciona: 
+        
+        clave = nombre de lo que ingresara 
+         valor = lo que contendra la clave
+
+         Los valores puede ser cualquier tipo de valor.
+
+--PROPIEDADES--
+Las propiedades son las que estan dentro del objeto, su sintaxis es esta:
+    SINTAXIS:
+        clave:valor
+
+    Todas las propiedades dentro del objeto vas separadas por una coma, la clave o key, es el nombre que le asiganaras
+    a la propiedad, el valor puede ser cualquier cosa, un boleano, una funcion, un string, etc.
+
+--METODOS--
+Las funciones guardadas dentro de un objeto se les llama metodos, ya hemos usado metodos como .lenght .pop .unshift etc,
+la diferencia es que cada vez que quieras llamar al metodo debes de poner parentesis como si llamaras
+a una funcion.
+
+--BUCLE FOR...IN--
+Usualmente se usaria el metodo for para poder rapasar todo lo que hay en el array, pero claramente ya no estamos en
+un array, los datos dentro del objeto no estan numerados y por lo tanto eso significa que no puedes usar el ciclo for
+que va aumentando de 1 en 1, ahi es cuando se usa el BUCLE FOR...IN, la formade usarlo es muy sencilla:
+    SINTAXIS:
+        const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+--NOTACION DE PUNTOS VS NOTACION DE CORCHETES--
+Con la notacion PUNTOS llamas a la propiedad unicamente y con los corchetas llamas al dato de la propiedad,
+para hacerlo mas claro, se podria decir que con notacion puntos hacer una busqueda mas general dentro del objeto, no buscas
+datos dentro de los clave:valor, y cuando usas corchetes, buscas inlcuso dentro de las claves esa informacion.
